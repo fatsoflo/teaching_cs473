@@ -35,4 +35,9 @@ public class ExampleController {
         }
         throw new RuntimeException();
     }
+
+    @GetMapping("/name")
+    public String name() {
+        return "Hello World! This is Florence Fong, 23670012 via Docker";
+    }
 }
